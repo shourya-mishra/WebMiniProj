@@ -1,0 +1,73 @@
+html
+{
+    width: 100vw;
+	height: 100vh;
+    overflow-x: hidden;
+}
+
+body{
+	height:100%;
+	background-image: linear-gradient(to left, #141e30, #243b55);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	}
+
+.card{
+
+  width : 24%;
+  border-radius: 10px;
+  height : 20%;
+  margin : 2px;
+  border: 1px solid #141e30;
+}
+
+  #div1_1{
+    height: 90%;
+    width : 100%;
+    padding : 10px;
+    border: 0px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #div_body{
+    background-color: whitesmoke;
+  	display:flex;
+  	flex-direction: column;
+  	width: 98vw;
+  	height:80vh;
+  	border-radius: 10px;
+  	color:#757575;
+  	font-family:poppins;
+    border:0px solid blue;
+  }
+
+
+  .button1 {
+    border-radius: 25px;
+    border:0px;
+    background-image: linear-gradient(to left, #141e30, #243b55);
+    padding: 1.85vh;
+    width: 9vw;
+    margin: 1vw;
+    font-family:MuseoModerno;
+    font-size:15;
+    color: #ffffff;
+    outline: none;
+  }
+
+.anchor{
+  border: 1px solid black;
+}
+
+.card_button{
+  border: 0px solid red;
+  width : 100%;
+  border-radius: 10px;
+  height : 100%;
+  outline:none;
+}

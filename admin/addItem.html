@@ -1,0 +1,33 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Open+Sans:ital@1&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link href="css/login.css" rel="stylesheet">
+    <link href="css/addItem.css" rel="stylesheet">
+    <script type="text/babel" src="Components/addItem.js"></script>
+
+
+</head>
+<body>
+<div id="addItemCard">
+    <form action="php/addItem.php" method="post" id="addItemForm" enctype="multipart/form-data">
+
+
+    </form>
+    <button id="button2" onClick="parent.location='./items.html'">
+    Cancel
+    </button>
+
+    </div>
+
+</body>
+</html>

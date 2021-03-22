@@ -1,0 +1,47 @@
+input{
+  width: 87%;
+  height: 5vh;
+  border-radius: 100px;
+  margin: 0.5vh;
+  background-color: inherit;
+  border:1px solid #141e30;
+  outline: none;
+  padding-left: 1vw;
+  color: grey;
+}
+
+#image{
+  width: 87%;
+  height: 5vh;
+  margin: 0.6vh;
+  margin-left: 1.1vw;
+  background-color: inherit;
+  outline: none;
+  padding-left: 1vw;
+  color: grey;
+  border:0px solid #141e30;
+}
+
+		#addItemCard{
+      border: 0px solid red;
+			background-color: whitesmoke;
+			padding-top: 4vh;
+			padding-right: 1.5vw;
+			padding-left: 1.5vw;
+			align-items: center;
+			align-content: center;
+			text-align: center;
+			display: flex;
+			flex-direction:column;
+			width:25vw;
+      height: auto;
+			border-radius: 25px;
+			box-shadow: 4px 2px 10px 1px grey;
+
+		}
+ #button2{
+   margin-top: -2vh;
+ }
+#button1{
+  margin-top: -1vh;
+}

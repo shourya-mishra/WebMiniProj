@@ -1,0 +1,105 @@
+
+	.header{
+		height:9vh;
+		width: 100vw;
+		display:flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background-color: whitesmoke;
+	}
+
+	.navbar{
+		height:9vh;
+		width: 100vw;
+		display:flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background-color: whitesmoke;
+
+	}
+
+	.header_div1{
+		border: 0px solid blue;
+		width: 100%;
+		text-align: right;
+	}
+
+	.sidebardiv{
+		border: 0px solid red;
+		display:flex;
+
+	}
+
+.userimg{
+	height: 100%;
+	border-radius: 50%;
+	margin-right: 2%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 60px;
+
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #414141;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color:#414141;
+}
+
+.openbtn {
+		  font-size: 15px;
+		  cursor: pointer;
+		  background-color: whitesmoke;
+		  text-align: center;
+		  padding: 5px;
+		  border: none;
+		  border-radius: 25px;
+		  width: 4vw;
+		  font-family:MuseoModerno;
+		  outline: none;
+}
+
+.openbtn:hover {
+  box-shadow: 1px 1px 5px 1px grey;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.icofont-navigation-menu{
+    font-size: 20px;
+		color: #141e30;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="css/signup.css" rel="stylesheet">
+
+</head>
+<body>
+  <div id="div1">
+    <form action="php/signup.php" method="POST">
+      	<div id="div1_1">
+    			<div><input id="ip1" type="text" placeholder="First name" name="fname"></div>
+    			<div><input id="ip2" type="text" placeholder="Last name" name="lastname"></div>
+  		  </div>
+
+     		<input id="ip3" class="ip" type="text" placeholder="Username" name="username">
+     		<input id="ip4" class="ip" type="password" placeholder="Password" name="pass">
+     		<input id="ip5" class="ip" type="password" placeholder="Re enter password" name="repass">
+      	<div id="div1_2">
+        	<button type="submit" id="button1">
+    		    	Sign Up
+        	</button>
+
+      	</div>
+    </form>
+    <i><u>Already have an account?</u></i>
+    <button id="button2" onClick="parent.location='./login.html'">
+        Login
+    </button>
+  </div>
+</body>
+</html>

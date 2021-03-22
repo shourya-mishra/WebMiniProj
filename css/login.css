@@ -1,0 +1,73 @@
+html
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+		body{
+			background-image: linear-gradient(to left, #141e30, #243b55);
+			display:flex;
+			justify-content:center;
+      align-items: center;
+			}
+
+	 	#div1_1{
+		 	border:0px solid blue;
+			display: flex;
+			flex-direction: row;
+      justify-content: space-evenly;
+		 	width: 25vw;
+      margin-top: 3vh;
+		 }
+
+
+		#button1,#button2 {
+			border-radius: 25px;
+			border:0px;
+			background-image: linear-gradient(to left, #141e30, #243b55);
+			padding: 1.85vh;
+			width: 9vw;
+			margin: 1vw;
+			font-family:MuseoModerno;
+			font-size:15;
+			color: #ffffff;
+			outline: none;
+		}
+
+		#div1{
+      border: 0px solid red;
+			background-color: whitesmoke;
+			padding-top: 9vh;
+			padding-right: 1.5vw;
+			padding-left: 1.5vw;
+			align-items: center;
+			align-content: center;
+			text-align: center;
+			display: flex;
+			flex-direction:column;
+			width:25vw;
+      height: 60%;
+			border-radius: 25px;
+			box-shadow: 4px 2px 10px 1px grey;
+
+		}
+
+	 	#ip1,#ip2{
+
+			background-color: whitesmoke;
+			padding: 22px;
+			padding-bottom: 5px;
+			padding-top: 27px;
+			border:0px solid white;
+			border-bottom: 1px solid black;
+			outline:none ;
+			width: 90%;
+			font-family:open sans;
+			font-size: 15.5;
+		}
+
+
+		#button1:hover, #button2:hover {
+			box-shadow: 1px 1px 5px 1px grey;
+		}
