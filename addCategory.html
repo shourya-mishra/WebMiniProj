@@ -1,0 +1,30 @@
+<!DOCTYPE html5>
+<html>
+<head>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="css/index.css" rel="stylesheet" />
+
+</head>
+<body>
+  <br><br><br><br><br><br><br>
+<div id="container" class="container center">
+    <form action="php/addCategory.php" method="post">
+      <div class="input-field">
+        <input id="ip1" type="text" name="category">
+        <label for="ip2" class="active white-text">Add new category</label>
+      </div>
+
+    	<button id="button1" type="submit" class="btn">Add</button>
+
+    </form>
+    <button id="button2" onClick="parent.location='./dashboard.html'" class="btn">Cancel</button>
+
+    </div>
+
+</body>
+</html>

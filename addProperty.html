@@ -1,0 +1,34 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="css/index.css" rel="stylesheet" />
+
+</head>
+<body>
+<div id="div1" class="container">
+  <br><br><br><br><br><br><br>
+    <form action="php/addProperty.php" method="post">
+      <div class="input-field">
+    	<input id="ip1" type="text" name="propertyName">
+      <label class="active white-text" for="ip1">Property name</label>
+    </div>
+    <div class="input-field">
+      <input id="ip2" type="text" name="dataSize">
+      <label class="active white-text" for="ip1">Data length</label>
+    </div>
+    	<button id="button1" type="submit" class="btn">Add</button>
+
+
+    </form>
+    <button id="button2" class="btn" onClick="parent.location='./items.html'">Cancel</button>
+
+    </div>
+
+</body>
+</html>

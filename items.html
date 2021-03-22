@@ -1,0 +1,54 @@
+<!DOCTYPE html5>
+<html>
+<head>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script type="text/babel" src="Components/header.js"></script>
+  <script type="text/babel" src="Components/items.js"></script>
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="css/index.css" rel="stylesheet" />
+  <link href="css/header.css" rel="stylesheet">
+  
+  <script>
+  $(document).ready(function(){
+   $('.fixed-action-btn').floatingActionButton();
+   $('.tooltipped').tooltip();
+  });
+
+   </script>
+
+
+
+</head>
+<body>
+ 		<header id="header">
+ 		</header>
+
+    <div id="div1">
+
+ 		</div>
+
+    <div class="fixed-action-btn">
+<a class="btn-floating btn-large red">
+<i class="large material-icons">mode_edit</i>
+</a>
+<ul>
+<li><a class="btn-floating blue tooltipped" data-position="left" data-delay="50" data-tooltip="Remove property" href="removeProperty.html"><i class="material-icons">remove_circle</i></a></li>
+
+<li><a class="btn-floating green tooltipped" data-position="left" data-delay="50" data-tooltip="Add property" href="addProperty.html"><i class="material-icons">playlist_add</i></a></li>
+
+<li><a class="btn-floating yellow darken-5 tooltipped" data-position="left" data-delay="50" data-tooltip="Add item" href="addItem.html"><i class="material-icons">plus_one</i></a></li>
+</ul>
+</div>
+</body>
+</html>
